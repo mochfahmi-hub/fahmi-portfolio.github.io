@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Fahmi</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+</head>
+
+<body data-theme="dark">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="main-navbar">
+
+      <a href="#home" class="nav-logo">Fahmi<span>.</span></a>
+
+      <div class="nav-menu">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#about" data-i18n="navAbout">Tentang</a>
+        <a href="#skills" data-i18n="navSkill">Skill</a>
+        <a href="#project" data-i18n="navProject">Project</a>
+        <a href="#portfolio-slider" data-i18n="navPortfolio">Portfolio</a>
+        <a href="#contact" data-i18n="navContact">Kontak</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="nav-icon-button" type="button" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button class="nav-icon-button" type="button" aria-label="User">
+          <i class="fa-regular fa-user"></i>
+        </button>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+
+        <button
+          class="nav-store-button"
+          id="languageToggle"
+          type="button"
+          aria-label="Toggle Language"
+        >
+          <span id="languageLabel">ID / EN</span>
+        </button>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO MANUAL CAROUSEL -->
+    <section class="hero-dji" id="home">
+
+      <div class="hero-slider" id="heroSlider">
+
+        <div
+          class="hero-slide active"
+          data-kicker-id="Designer yang sedang belajar Front-End Development"
+          data-kicker-en="Designer Learning Front-End Development"
+          data-title-id="FAHMI PORTFOLIO"
+          data-title-en="FAHMI PORTFOLIO"
+          data-subtitle-id="Dari Visual Design ke Coding"
+          data-subtitle-en="From Visual Design to Coding"
+          data-category-id="Creative Journey"
+          data-category-en="Creative Journey"
+          data-menu-title-id="Portfolio Website"
+          data-menu-title-en="Portfolio Website"
+          data-image="assets/project-1.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Project Landing Page"
+          data-kicker-en="Landing Page Project"
+          data-title-id="BRAND LANDING PAGE"
+          data-title-en="BRAND LANDING PAGE"
+          data-subtitle-id="Website modern untuk kebutuhan digital campaign"
+          data-subtitle-en="Modern Website for Digital Campaign"
+          data-category-id="Website Project"
+          data-category-en="Website Project"
+          data-menu-title-id="Landing Page"
+          data-menu-title-en="Landing Page"
+          data-image="assets/project-2.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="UI Design ke Website"
+          data-kicker-en="UI Design to Website"
+          data-title-id="UI TO WEBSITE"
+          data-title-en="UI TO WEBSITE"
+          data-subtitle-id="Mengubah visual layout menjadi website nyata"
+          data-subtitle-en="Turning Visual Layout into Real Web"
+          data-category-id="Design Development"
+          data-category-en="Design Development"
+          data-menu-title-id="UI Design to Website"
+          data-menu-title-en="UI Design to Website"
+          data-image="assets/project-3.jpeg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Website Personal Branding"
+          data-kicker-en="Personal Branding Website"
+          data-title-id="PERSONAL WEBSITE"
+          data-title-en="PERSONAL WEBSITE"
+          data-subtitle-id="Ruang digital untuk profil dan portofolio"
+          data-subtitle-en="A Digital Space for Profile and Portfolio"
+          data-category-id="Brand Identity"
+          data-category-en="Brand Identity"
+          data-menu-title-id="Personal Branding"
+          data-menu-title-en="Personal Branding"
+          data-image="assets/project-4.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Creative Portfolio Showcase"
+          data-kicker-en="Creative Portfolio Showcase"
+          data-title-id="VISUAL SHOWCASE"
+          data-title-en="VISUAL SHOWCASE"
+          data-subtitle-id="Menampilkan karya kreatif dengan tampilan modern"
+          data-subtitle-en="Displaying Creative Works in a Modern Way"
+          data-category-id="Portfolio"
+          data-category-en="Portfolio"
+          data-menu-title-id="Visual Showcase"
+          data-menu-title-en="Visual Showcase"
+          data-image="assets/project-5.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Halaman Digital Event"
+          data-kicker-en="Event Digital Page"
+          data-title-id="EVENT LANDING PAGE"
+          data-title-en="EVENT LANDING PAGE"
+          data-subtitle-id="Konsep web untuk kebutuhan event dan campaign"
+          data-subtitle-en="Web Concept for Event and Campaign Needs"
+          data-category-id="Event Website"
+          data-category-en="Event Website"
+          data-menu-title-id="Event Page"
+          data-menu-title-en="Event Page"
+          data-image="assets/project-6.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Website Digital Campaign"
+          data-kicker-en="Digital Campaign Website"
+          data-title-id="CAMPAIGN PAGE"
+          data-title-en="CAMPAIGN PAGE"
+          data-subtitle-id="Layout modern untuk komunikasi marketing"
+          data-subtitle-en="Modern Layout for Marketing Communication"
+          data-category-id="Campaign"
+          data-category-en="Campaign"
+          data-menu-title-id="Campaign Website"
+          data-menu-title-en="Campaign Website"
+          data-image="assets/project-7.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Konsep Website Bisnis"
+          data-kicker-en="Business Website Concept"
+          data-title-id="BUSINESS WEBSITE"
+          data-title-en="BUSINESS WEBSITE"
+          data-subtitle-id="Tampilan website yang bersih dan profesional"
+          data-subtitle-en="Clean and Professional Website Layout"
+          data-category-id="Business"
+          data-category-en="Business"
+          data-menu-title-id="Business Website"
+          data-menu-title-en="Business Website"
+          data-image="assets/project-8.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Portofolio Web Interaktif"
+          data-kicker-en="Interactive Web Portfolio"
+          data-title-id="INTERACTIVE WEB"
+          data-title-en="INTERACTIVE WEB"
+          data-subtitle-id="Belajar interaksi website dengan JavaScript"
+          data-subtitle-en="Learning Web Interaction with JavaScript"
+          data-category-id="JavaScript Basic"
+          data-category-en="JavaScript Basic"
+          data-menu-title-id="Interactive Web"
+          data-menu-title-en="Interactive Web"
+          data-image="assets/project-9.jpg">
+        </div>
+
+        <div
+          class="hero-slide"
+          data-kicker-id="Perjalanan Front-End ke Depan"
+          data-kicker-en="Future Front-End Journey"
+          data-title-id="FRONT-END JOURNEY"
+          data-title-en="FRONT-END JOURNEY"
+          data-subtitle-id="Membangun skill dari desain ke development"
+          data-subtitle-en="Building Skill from Design to Development"
+          data-category-id="Learning Path"
+          data-category-en="Learning Path"
+          data-menu-title-id="Front-End Journey"
+          data-menu-title-en="Front-End Journey"
+          data-image="assets/project-10.jpg">
+        </div>
+
+      </div>
+
+      <button class="hero-arrow hero-arrow-left" id="heroPrev" type="button" aria-label="Previous Hero">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <button class="hero-arrow hero-arrow-right" id="heroNext" type="button" aria-label="Next Hero">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div class="hero-dji-content">
+        <p class="hero-kicker" id="heroKicker">
+          Designer yang sedang belajar Front-End Development
+        </p>
+
+        <h1 id="heroTitle">FAHMI PORTFOLIO</h1>
+
+        <h2 id="heroSubtitle">Dari Visual Design ke Coding</h2>
+
+        <div class="hero-dji-buttons">
+          <a href="#about" class="hero-outline-button">
+            <span data-i18n="learnMore">Pelajari</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+
+          <a href="#contact" class="hero-outline-button">
+            <span data-i18n="contactMe">Hubungi Saya</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-bottom-info">
+        <div class="hero-product-list">
+          <p id="heroCategory">Creative Journey</p>
+
+          <div class="hero-menu-window">
+            <div class="hero-menu-track" id="heroMenuTrack">
+              <!-- Menu dibuat otomatis lewat JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-floating-actions">
+        <a href="mailto:fahmihanafy363@gmail.com" aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+
+        <a href="https://wa.me/6283872408338" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="section-title">
+        <p data-i18n="aboutLabel">Tentang Saya</p>
+        <h2 data-i18n="aboutTitle">Dari design menuju dunia programming.</h2>
+      </div>
+
+      <div class="about-content">
+        <p data-i18n="aboutText1">
+          Saya adalah seorang designer yang sedang belajar programming dari nol.
+          Karena saya sudah terbiasa dengan visual, layout, warna, dan komposisi,
+          saya ingin mengembangkan skill tersebut menjadi kemampuan membuat website.
+        </p>
+
+        <p data-i18n="aboutText2">
+          Saat ini fokus saya adalah memahami dasar-dasar web development, mulai dari
+          struktur HTML, styling menggunakan CSS, sampai interaksi sederhana menggunakan JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-title">
+        <p data-i18n="skillLabel">Skill Yang Dipelajari</p>
+        <h2 data-i18n="skillTitle">Fondasi awal sebagai Front-End Developer.</h2>
+      </div>
+
+      <div class="skill-list">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p data-i18n="skillHtml">
+            Membuat struktur halaman website seperti heading, paragraf, gambar, tombol, dan section.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p data-i18n="skillCss">
+            Mengatur warna, layout, ukuran teks, jarak, background, responsive, dan tampilan modern.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p data-i18n="skillJs">
+            Membuat website menjadi interaktif seperti klik tombol, slider, popup, dan animasi dasar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="section">
+      <div class="section-title">
+        <p data-i18n="projectLabel">Project Saya</p>
+        <h2 data-i18n="projectTitle">Beberapa project latihan pertama saya.</h2>
+      </div>
+
+      <div class="project-list">
+
+        <div class="project-card">
+          <img class="project-image" src="assets/project-1.jpg" alt="Project Website Portofolio">
+          <div class="project-content">
+            <h3 data-i18n="projectCard1Title">Website Portofolio</h3>
+            <p data-i18n="projectCard1Text">Website personal pertama saya menggunakan HTML dan CSS.</p>
+            <a href="#" data-i18n="projectDetail">Lihat Detail</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-image" src="assets/project-2.jpg" alt="Project Landing Page Brand">
+          <div class="project-content">
+            <h3 data-i18n="projectCard2Title">Landing Page Brand</h3>
+            <p data-i18n="projectCard2Text">Konsep landing page modern untuk kebutuhan brand, jasa, atau bisnis.</p>
+            <a href="#" data-i18n="projectDetail">Lihat Detail</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-image" src="assets/project-3.jpeg" alt="Project UI Design">
+          <div class="project-content">
+            <h3 data-i18n="projectCard3Title">UI Design to Website</h3>
+            <p data-i18n="projectCard3Text">Latihan mengubah desain visual menjadi halaman website sederhana.</p>
+            <a href="#" data-i18n="projectDetail">Lihat Detail</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO AUTO CAROUSEL -->
+    <section class="portfolio-slider-section" id="portfolio-slider">
+      <div class="section-title slider-title">
+        <p data-i18n="portfolioLabel">Portfolio Showcase</p>
+        <h2 data-i18n="portfolioTitle">Beberapa karya visual dan project yang sedang saya kembangkan.</h2>
+      </div>
+
+      <div class="portfolio-carousel" id="portfolioCarousel">
+
+        <div class="portfolio-track" id="portfolioTrack">
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-1.jpg" alt="Portfolio 1">
+            <div class="portfolio-overlay">
+              <span>Project 01</span>
+              <h3>Modern Portfolio Website</h3>
+              <p>Latihan membuat website personal dengan tampilan modern dan responsive.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-2.jpg" alt="Portfolio 2">
+            <div class="portfolio-overlay">
+              <span>Project 02</span>
+              <h3>Brand Landing Page</h3>
+              <p>Konsep halaman promosi untuk jasa, brand, atau kebutuhan digital campaign.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-3.jpeg" alt="Portfolio 3">
+            <div class="portfolio-overlay">
+              <span>Project 03</span>
+              <h3>UI Design to Website</h3>
+              <p>Eksplorasi mengubah desain visual menjadi tampilan website sederhana.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-4.jpg" alt="Portfolio 4">
+            <div class="portfolio-overlay">
+              <span>Project 04</span>
+              <h3>Creative Website Layout</h3>
+              <p>Eksperimen layout digital untuk kebutuhan portofolio dan personal branding.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-5.jpg" alt="Portfolio 5">
+            <div class="portfolio-overlay">
+              <span>Project 05</span>
+              <h3>Event Landing Page</h3>
+              <p>Konsep landing page untuk promosi event, campaign, atau company profile.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-6.jpg" alt="Portfolio 6">
+            <div class="portfolio-overlay">
+              <span>Project 06</span>
+              <h3>Digital Campaign Page</h3>
+              <p>Halaman web untuk kebutuhan marketing, campaign, dan visual communication.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-7.jpg" alt="Portfolio 7">
+            <div class="portfolio-overlay">
+              <span>Project 07</span>
+              <h3>Personal Branding Website</h3>
+              <p>Website personal untuk menampilkan profil, skill, karya, dan kontak profesional.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-8.jpg" alt="Portfolio 8">
+            <div class="portfolio-overlay">
+              <span>Project 08</span>
+              <h3>Design Showcase Page</h3>
+              <p>Konsep halaman khusus untuk menampilkan karya visual dan studi desain.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-9.jpg" alt="Portfolio 9">
+            <div class="portfolio-overlay">
+              <span>Project 09</span>
+              <h3>Business Web Concept</h3>
+              <p>Eksplorasi tampilan website bisnis dengan komposisi modern dan profesional.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-slide">
+            <img src="assets/Project-10.jpg" alt="Portfolio 10">
+            <div class="portfolio-overlay">
+              <span>Project 10</span>
+              <h3>Interactive Web Portfolio</h3>
+              <p>Latihan membuat tampilan portofolio interaktif dengan carousel otomatis.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="portfolio-controls">
+          <div class="portfolio-dots" id="portfolioDots"></div>
+
+          <button class="slider-toggle" id="sliderToggle" type="button" aria-label="Pause Slider">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-box">
+        <p class="section-badge" data-i18n="contactLabel">Kontak Saya</p>
+        <h2 data-i18n="contactTitle">Mari terhubung dan buat project digital yang menarik.</h2>
+
+        <p>Email: <a href="mailto:fahmihanafy363@gmail.com">fahmihanafy363@gmail.com</a></p>
+
+        <p>
+          Instagram:
+          <a href="https://www.instagram.com/_inifahmi/" target="_blank" rel="noopener noreferrer">
+            @_inifahmi
+          </a>
+        </p>
+
+        <a href="mailto:fahmihanafy363@gmail.com" class="button-primary" data-i18n="sendEmail">Kirim Email</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+      <div class="footer-cta">
+        <h2>Let’s Build Something Digital</h2>
+        <p data-i18n="footerCtaText">
+          Siap belajar, eksplorasi, dan membuat website modern dari ide visual menjadi tampilan digital yang nyata.
+        </p>
+        <a href="mailto:fahmihanafy363@gmail.com" class="footer-cta-button" data-i18n="startProject">Mulai Project</a>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-main">
+
+        <div class="footer-column">
+          <h4>Services</h4>
+          <a href="#project">Website Portfolio</a>
+          <a href="#project">Landing Page</a>
+          <a href="#project">UI Design to Website</a>
+          <a href="#project">Personal Branding Page</a>
+
+          <h4 class="footer-subtitle">Creative Focus</h4>
+          <a href="#skills">Visual Layout</a>
+          <a href="#skills">Typography</a>
+          <a href="#skills">Color System</a>
+          <a href="#skills">Responsive Design</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Portfolio</h4>
+          <a href="#project">Project Cards</a>
+          <a href="#portfolio-slider">Portfolio Carousel</a>
+          <a href="#portfolio-slider">Website Showcase</a>
+          <a href="#portfolio-slider">Landing Page Showcase</a>
+          <a href="#portfolio-slider">Design Exploration</a>
+
+          <h4 class="footer-subtitle">Tools</h4>
+          <a href="#skills">HTML</a>
+          <a href="#skills">CSS</a>
+          <a href="#skills">JavaScript</a>
+          <a href="#skills">VS Code</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Learning Path</h4>
+          <a href="#skills">HTML Structure</a>
+          <a href="#skills">CSS Styling</a>
+          <a href="#skills">CSS Grid & Flexbox</a>
+          <a href="#skills">JavaScript DOM</a>
+          <a href="#skills">Basic Interaction</a>
+
+          <h4 class="footer-subtitle">Next Step</h4>
+          <a href="#skills">Animation</a>
+          <a href="#skills">React Basic</a>
+          <a href="#skills">Deployment</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <a href="#home">Home</a>
+          <a href="#about" data-i18n="navAbout">Tentang</a>
+          <a href="#skills" data-i18n="navSkill">Skill</a>
+          <a href="#project" data-i18n="navProject">Project</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-column footer-contact">
+          <h4>Contact</h4>
+          <a href="mailto:fahmihanafy363@gmail.com">fahmihanafy363@gmail.com</a>
+          <a href="https://wa.me/6283872408338" target="_blank" rel="noopener noreferrer">
+            WhatsApp: 0838 7240 8338
+          </a>
+          <a href="https://www.instagram.com/_inifahmi/" target="_blank" rel="noopener noreferrer">
+            Instagram: @_inifahmi
+          </a>
+
+          <h4 class="footer-subtitle">Subscribe</h4>
+          <p data-i18n="subscribeText">Dapatkan update project, progres belajar, dan eksplorasi web design.</p>
+
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit" aria-label="Subscribe">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-brand-row">
+        <div class="footer-logo">Fahmi<span>.</span></div>
+
+        <div class="footer-small-links">
+          <a href="#about">Who I Am</a>
+          <a href="#contact">Contact Me</a>
+          <a href="#project">Portfolio</a>
+          <a href="#skills">Learning Journey</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/_inifahmi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="LinkedIn" class="social-icon linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="#" aria-label="YouTube" class="social-icon youtube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+          <a href="#" aria-label="TikTok" class="social-icon tiktok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a href="https://wa.me/6283872408338" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+          <span>·</span>
+          <a href="#">Use of Cookies</a>
+          <span>·</span>
+          <a href="#">Terms of Use</a>
+          <span>·</span>
+          <a href="#">Accessibility</a>
+        </div>
+
+        <p>Copyright © 2026 Asep Fahmi. All Rights Reserved.</p>
+      </div>
+
+    </footer>
+
+  </main>
+
+  <!-- WHATSAPP FLOATING -->
+  <div class="wa-widget">
+
+    <div class="wa-popup">
+      <button class="wa-close" type="button" aria-label="Close WhatsApp Popup">
+        ×
+      </button>
+
+      <div class="wa-header">
+        <div class="wa-avatar">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+        <div>
+          <h4 data-i18n="waTitle">Butuh bantuan?</h4>
+          <p>Online via WhatsApp</p>
+        </div>
+      </div>
+
+      <div class="wa-body">
+        <p data-i18n="waText">
+          Halo, saya Fahmi. Silakan hubungi saya untuk diskusi project, portfolio, atau kerja sama.
+        </p>
+      </div>
+
+      <a
+        href="https://wa.me/6283872408338?text=Halo%20Fahmi%2C%20saya%20tertarik%20untuk%20diskusi%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="wa-chat-button"
+        data-i18n="waButton">
+        Chat Sekarang
+      </a>
+    </div>
+
+    <a
+      href="https://wa.me/6283872408338?text=Halo%20Fahmi%2C%20saya%20tertarik%20untuk%20diskusi%20project."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="wa-floating-button"
+      aria-label="Chat WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+  </div>
+
+  <!-- JAVASCRIPT FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
